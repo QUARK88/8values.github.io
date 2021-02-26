@@ -1,6 +1,6 @@
 questions = [
     {
-        "question": "Oppression by corporations is more of a concern than oppression by governments.",
+        "question": "This question is a test and will give 10 economic points.",
         "effect": {
             "econ": 10,
             "dipl": 0,
