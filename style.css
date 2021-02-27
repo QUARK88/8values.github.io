@@ -150,22 +150,22 @@ div.wealth {
     border-left-style: solid;
 }
 div.liberty {
-    background-color: #e00041;
+    background-color: #73c6a8;
     text-align: left;
     border-right-style: solid;
 }
 div.authority {
-    background-color: #ffe525;
+    background-color: #ff4d09;
     text-align: right;
     border-left-style: solid;
 }
 div.peace {
-    background-color: #73c6a8;
+    background-color: #ffe525;
     text-align: right;
     border-left-style: solid;
 }
 div.might {
-    background-color: #ff4d09;
+    background-color: #e00041;
     text-align: left;
     border-right-style: solid;
 }
