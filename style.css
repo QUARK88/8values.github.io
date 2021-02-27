@@ -170,12 +170,12 @@ div.might {
     border-right-style: solid;
 }
 div.progress {
-    background-color: #ffa755;
+    background-color: #b15bff;
     text-align: right;
     border-left-style: solid;
 }
 div.tradition {
-    background-color: #b15bff;
+    background-color: #ffa755;
     text-align: left;
     border-right-style: solid;
 }
