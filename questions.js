@@ -9,7 +9,7 @@ questions = [
         }
     },
     {
-        "question": "Consumerism was a mistake.",
+        "question": "Mass consumption should be viewed more positively.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -81,7 +81,7 @@ questions = [
         }
     },
     {
-        "question": "Artifical needs are a threat to society.",
+        "question": "'Artificial needs' are no less valid than any other needs",
         "effect": {
             "econ": 10,
             "dipl": 0,
