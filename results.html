@@ -19,14 +19,14 @@
 
 <h1>Results</h1>
 
-<h2>Luxury Axis: <span class="weight-300" id="luxury-label"></span></h2>
+<h2>Luxury Axis: <span class="weight-300" id="economic-label"></span></h2>
 <div class="axis">
     <img id="img-equality" src="value_images/opulence.png" height="128pt"/>
     <div class="bar equality" id="bar-equality"><div class="text-wrapper" id="equality"></div></div>
     <div class="bar wealth" id="bar-wealth"><div class="text-wrapper" id="wealth"></div></div>
     <img id="img-wealth" src="value_images/sustenance.png" height="128pt"/>
 </div>
-<h2>Worker Axis: <span class="weight-300" id="worker-label"></span></h2>
+<h2>Worker Axis: <span class="weight-300" id="diplomatic-label"></span></h2>
 <div class="axis">
     <img id="img-might" src="value_images/proportion.png" height="128pt"/>
     <div class="bar might" id="bar-might"><div class="text-wrapper" id="might"></div></div>
@@ -48,11 +48,11 @@
     <img id="img-progress" src="value_images/control.png" height="128pt"/>
 </div>
 <h2>Closest Match: <span class="weight-300" id="ideology-label"></span></h2>
-<p>There's no closest match for now, so for now, cope with the axes lmao</p>
+<p>There's no closest match for now, so cope with the axes lmao</p>
 <p>Criticism ? Questions ? Ideas ? Feel free to harass me on discord ( Quark#0741 ) or fill my spam box ( beaulieu.renaud@gmail.com ) . </p>
 <hr/>
 <img src="" id="banner">
-<button class="button" onclick="location.href='index.html';" style="background-color: #00b5ff;">Back</button> <br>
+<button class="button" onclick="location.href='index.html';" style="background-color: #ff5050;">Back</button> <br>
 <!-- Website visit statistics - no personal information is collected! -->
 <script type="text/javascript">
 var sc_project=11325211;
@@ -92,9 +92,9 @@ stats"></a></div></noscript>
     }
 
     econArray = ["Opulence","Hedonism","Luxury","Neutral","Moderation","Asceticism","Sustenance"]
-    diplArray = ["Proportion","Socialism","Equality","Neutral","Inequality","Capitalism","Exploitation"]
+    diplArray = ["Exploitation","Capitalism","Inequality","Neutral","Equality","Socialism","Proportion"]
     govtArray = ["Advancement","Revolutionary","Progressive","Neutral","Conventional","Conservative","Tradition"]
-    sctyArray = ["Autonomy","Permissive","Lenient","Neutral","Limiting","Restrictive","Control"]
+    sctyArray = ["Control","Restrictive","Limiting","Neutral","Lenient","Permissive","Autonomy"]
 
     function setLabel(val,ary) {
         if (val > 100) { return "" } else
