@@ -23,7 +23,7 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "govt": 0,
-            "scty": 10
+            "scty": -10
         }
     },
     {
@@ -59,7 +59,7 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "govt": 0,
-            "scty": -10
+            "scty": 10
         }
     },
     {
@@ -95,7 +95,7 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "govt": 0,
-            "scty": 10
+            "scty": -10
         }
     },
     {
@@ -131,7 +131,7 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "govt": 0,
-            "scty": -10
+            "scty": 10
         }
     },
     {
@@ -167,7 +167,7 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "govt": 0,
-            "scty": 10
+            "scty": -10
         }
     },
     {
@@ -203,7 +203,7 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "govt": 0,
-            "scty": -10
+            "scty": 10
         }
     },
     {
@@ -239,7 +239,7 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "govt": 0,
-            "scty": 10
+            "scty": -10
         }
     },
     {
@@ -275,7 +275,7 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "govt": 0,
-            "scty": -10
+            "scty": 10
         }
     },
     {
@@ -311,7 +311,7 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "govt": 0,
-            "scty": 10
+            "scty": -10
         }
     },
     {
@@ -347,7 +347,7 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "govt": 0,
-            "scty": -10
+            "scty": 10
         }
     },
     {
