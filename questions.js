@@ -36,7 +36,7 @@ questions = [
         }
     },
     {
-        "question": "Natue has inherent worth.",
+        "question": "Nature has inherent worth.",
         "effect": {
             "econ": 0,
             "dipl": 0,
