@@ -30,7 +30,7 @@ questions = [
         "question": "Inequality is one of the biggest problems of our age.",
         "effect": {
             "econ": 0,
-            "dipl": 10,
+            "dipl": -10,
             "govt": 0,
             "scty": 0
         }
@@ -66,7 +66,7 @@ questions = [
         "question": "Property is an absolute right that can never be infringed.",
         "effect": {
             "econ": 0,
-            "dipl": -10,
+            "dipl": 10,
             "govt": 0,
             "scty": 0
         }
@@ -102,7 +102,7 @@ questions = [
         "question": "If all jobs become automated, the resulting wealth should be shared equally.",
         "effect": {
             "econ": 0,
-            "dipl": 10,
+            "dipl": -10,
             "govt": 0,
             "scty": 0
         }
@@ -138,7 +138,7 @@ questions = [
         "question": "Some people simply deserve to be richer.",
         "effect": {
             "econ": 0,
-            "dipl": -10,
+            "dipl": 10,
             "govt": 0,
             "scty": 0
         }
@@ -174,7 +174,7 @@ questions = [
         "question": "Pay should be according to productivity, rather than ownership.",
         "effect": {
             "econ": 0,
-            "dipl": 10,
+            "dipl": -10,
             "govt": 0,
             "scty": 0
         }
@@ -210,7 +210,7 @@ questions = [
         "question": "People who own natural resources should be allowed to profit from them.",
         "effect": {
             "econ": 0,
-            "dipl": -10,
+            "dipl": 10,
             "govt": 0,
             "scty": 0
         }
@@ -246,7 +246,7 @@ questions = [
         "question": "Landlords contribute nothing of value to the economy.",
         "effect": {
             "econ": 0,
-            "dipl": 10,
+            "dipl": -10,
             "govt": 0,
             "scty": 0
         }
@@ -282,7 +282,7 @@ questions = [
         "question": "There is nothing wrong with inheriting wealth.",
         "effect": {
             "econ": 0,
-            "dipl": -10,
+            "dipl": 10,
             "govt": 0,
             "scty": 0
         }
@@ -318,7 +318,7 @@ questions = [
         "question": "Healthcare should be provided for free.",
         "effect": {
             "econ": 0,
-            "dipl": 10,
+            "dipl": -10,
             "govt": 0,
             "scty": 0
         }
@@ -354,7 +354,7 @@ questions = [
         "question": "Capitalism rewards innovation better than any other system.",
         "effect": {
             "econ": 0,
-            "dipl": -10,
+            "dipl": 10,
             "govt": 0,
             "scty": 0
         }
