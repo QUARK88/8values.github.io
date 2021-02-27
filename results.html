@@ -1,12 +1,12 @@
 <head>
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
 <link href='style.css' rel='stylesheet' type='text/css'>
-<title>8values Results</title>
+<title>CapacValues Results</title>
 <link rel="icon" type="x-icon" href="icon.png">
 <link rel="shortcut icon" type="x-icon" href="icon.png">
 <meta charset="utf-8">
 <script>
-  version = "Test Edition #1" //Remember to update this before making changes to the test itself!
+  version = "CapacValues V1 2021-02-27" //Remember to update this before making changes to the test itself!
 </script>
 </head>
 <script type="application/javascript"
@@ -24,35 +24,35 @@
     <img id="img-equality" src="value_images/opulence.png" height="128pt"/>
     <div class="bar equality" id="bar-equality"><div class="text-wrapper" id="equality"></div></div>
     <div class="bar wealth" id="bar-wealth"><div class="text-wrapper" id="wealth"></div></div>
-    <img id="img-wealth" src="value_images/wealth.svg" height="128pt"/>
+    <img id="img-wealth" src="value_images/sustenance.png" height="128pt"/>
 </div>
-<h2>Diplomatic Axis: <span class="weight-300" id="diplomatic-label"></span></h2>
+<h2>Worker Axis: <span class="weight-300" id="worker-label"></span></h2>
 <div class="axis">
-    <img id="img-might" src="value_images/might.svg" height="128pt"/>
+    <img id="img-might" src="value_images/proportion.png" height="128pt"/>
     <div class="bar might" id="bar-might"><div class="text-wrapper" id="might"></div></div>
     <div class="bar peace" id="bar-peace"><div class="text-wrapper" id="peace"></div></div>
-    <img id="img-peace" src="value_images/peace.svg" height="128pt"/>
+    <img id="img-peace" src="value_images/exploitation.png" height="128pt"/>
 </div>
-<h2>Civil Axis: <span class="weight-300" id="state-label"></span></h2>
+<h2>Progress Axis: <span class="weight-300" id="state-label"></span></h2>
 <div class="axis">
-    <img id="img-liberty" src="value_images/liberty.svg" height="128pt"/>
+    <img id="img-liberty" src="value_images/advancement.png" height="128pt"/>
     <div class="bar liberty" id="bar-liberty"><div class="text-wrapper" id="liberty"></div></div>
     <div class="bar authority" id="bar-authority"><div class="text-wrapper" id="authority"></div></div>
-    <img id="img-authority" src="value_images/authority.svg" height="128pt"/>
+    <img id="img-authority" src="value_images/tradition.png" height="128pt"/>
 </div>
-<h2>Societal Axis: <span class="weight-300" id="society-label"></span></h2>
+<h2>Personal Axis: <span class="weight-300" id="society-label"></span></h2>
 <div class="axis">
-    <img id="img-tradition" src="value_images/tradition.svg" height="128pt"/>
+    <img id="img-tradition" src="value_images/autonomy.png" height="128pt"/>
     <div class="bar tradition" id="bar-tradition"><div class="text-wrapper" id="tradition"></div></div>
     <div class="bar progress" id="bar-progress"><div class="text-wrapper" id="progress"></div></div>
-    <img id="img-progress" src="value_images/progress.svg" height="128pt"/>
+    <img id="img-progress" src="value_images/control.png" height="128pt"/>
 </div>
 <h2>Closest Match: <span class="weight-300" id="ideology-label"></span></h2>
-<p>Ideological matching is a work in progress, and is much less accurate than the values and axes.</p>
-<p>You can send these results by copying and pasting the URL at the top of the page or using the image below. Think your matched ideology was wrong? Want to help us calibrate the test? Send the results along with your political ideology to us at eightvalues@gmail.com, or send us any comments, questions, or criticism. </p>
+<p>There's no closest match for now, so for now, cope with the axes lmao</p>
+<p>Criticism ? Questions ? Ideas ? Feel free to harass me on discord ( Quark#0741 ) or fill my spam box ( beaulieu.renaud@gmail.com ) . </p>
 <hr/>
 <img src="" id="banner">
-<button class="button" onclick="location.href='index.html';" style="background-color: #2196f3;">Back</button> <br>
+<button class="button" onclick="location.href='index.html';" style="background-color: #00b5ff;">Back</button> <br>
 <!-- Website visit statistics - no personal information is collected! -->
 <script type="text/javascript">
 var sc_project=11325211;
@@ -91,10 +91,10 @@ stats"></a></div></noscript>
         }
     }
 
-    econArray = ["Communist","Socialist","Social","Centrist","Market","Capitalist","Laissez-Faire"]
-    diplArray = ["Cosmopolitan","Internationalist","Peaceful","Balanced","Patriotic","Nationalist","Chauvinist"]
-    govtArray = ["Anarchist","Libertarian","Liberal","Moderate","Statist","Authoritarian","Totalitarian"]
-    sctyArray = ["Revolutionary","Very Progressive","Progressive","Neutral","Traditional","Very Traditional","Reactionary"]
+    econArray = ["Opulence","Hedonism","Luxury","Neutral","Moderation","Asceticism","Sustenance"]
+    diplArray = ["Proportion","Socialism","Equality","Neutral","Inequality","Capitalism","Exploitation"]
+    govtArray = ["Advancement","Revolutionary","Progressive","Neutral","Conventional","Conservative","Tradition"]
+    sctyArray = ["Autonomy","Permissive","Lenient","Neutral","Limiting","Restrictive","Control"]
 
     function setLabel(val,ary) {
         if (val > 100) { return "" } else
@@ -159,7 +159,7 @@ stats"></a></div></noscript>
         var ctx = c.getContext("2d")
         c.width = 800;
         c.height = 650;
-        ctx.fillStyle = "#EEEEEE"
+        ctx.fillStyle = "#e0e0e0"
         ctx.fillRect(0,0,800,650);
 
         img = document.getElementById("img-equality")
@@ -179,28 +179,28 @@ stats"></a></div></noscript>
         img = document.getElementById("img-progress")
         ctx.drawImage(img, 680, 530, 100, 100)
 
-        ctx.fillStyle="#222222"
+        ctx.fillStyle="#000000"
         ctx.fillRect(120, 180, 560, 80)
         ctx.fillRect(120, 300, 560, 80)
         ctx.fillRect(120, 420, 560, 80)
         ctx.fillRect(120, 540, 560, 80)
-        ctx.fillStyle="#f44336"
+        ctx.fillStyle="#ff6b7b"
         ctx.fillRect(120, 184, 5.6*equality-2, 72)
-        ctx.fillStyle="#00897b"
+        ctx.fillStyle="#7178ec"
         ctx.fillRect(682-5.6*wealth, 184, 5.6*wealth-2, 72)
-        ctx.fillStyle="#ff9800"
+        ctx.fillStyle="#e00041"
         ctx.fillRect(120, 304, 5.6*might-2, 72)
-        ctx.fillStyle="#03a9f4"
+        ctx.fillStyle="#ffe525"
         ctx.fillRect(682-5.6*peace, 304, 5.6*peace-2, 72)
-        ctx.fillStyle="#ffeb3b"
+        ctx.fillStyle="#73c6a8"
         ctx.fillRect(120, 424, 5.6*liberty-2, 72)
-        ctx.fillStyle="#3f51b5"
+        ctx.fillStyle="#ff4d09"
         ctx.fillRect(682-5.6*authority, 424, 5.6*authority-2, 72)
-        ctx.fillStyle="#8bc34a"
+        ctx.fillStyle="#ffa755"
         ctx.fillRect(120, 544, 5.6*tradition-2, 72)
-        ctx.fillStyle="#9c27b0"
+        ctx.fillStyle="#b15bff"
         ctx.fillRect(682-5.6*progress, 544, 5.6*progress-2, 72)
-        ctx.fillStyle="#222222"
+        ctx.fillStyle="#000000"
         ctx.font="700 80px Montserrat"
         ctx.textAlign="left"
         ctx.fillText("8values", 20, 90)
