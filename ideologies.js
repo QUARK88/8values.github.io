@@ -9,84 +9,84 @@ ideologies = [
         }
     },
     {
-        "name": "Libertarian Communism",
+        "name": "Inhibition",
         "stats": {
-            "econ": 100,
-            "dipl": 70,
-            "govt": 80,
-            "scty": 80
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
         }
     },
     {
-        "name": "Trotskyism",
+        "name": "Libertarian Socialism",
         "stats": {
-            "econ": 100,
+            "econ": 40,
             "dipl": 100,
             "govt": 60,
             "scty": 80
         }
     },
     {
-        "name": "Marxism",
+        "name": "Libertarian Market Socialism",
         "stats": {
-            "econ": 100,
-            "dipl": 70,
-            "govt": 40,
-            "scty": 80
+            "econ": 70,
+            "dipl": 95,
+            "govt": 65,
+            "scty": 85
         }
     },
     {
-        "name": "De Leonism",
+        "name": "Anarcho Capitalism",
         "stats": {
-            "econ": 100,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 80
+            "econ": 95,
+            "dipl": 0,
+            "govt": 60,
+            "scty": 100
         }
     },
     {
-        "name": "Leninism",
+        "name": "Market Anarchism",
         "stats": {
-            "econ": 100,
+            "econ": 80,
+            "dipl": 85,
+            "govt": 70,
+            "scty": 100
+        }
+    },
+    {
+        "name": "FALGSC",
+        "stats": {
+            "econ": 70,
+            "dipl": 95,
+            "govt": 95,
+            "scty": 75
+        }
+    },
+    {
+        "name": "Fordism",
+        "stats": {
+            "econ": 90,
             "dipl": 40,
-            "govt": 20,
-            "scty": 70
-        }
-    },
-    {
-        "name": "Stalinism/Maoism",
-        "stats": {
-            "econ": 100,
-            "dipl": 20,
-            "govt": 0,
+            "govt": 100,
             "scty": 60
         }
     },
     {
-        "name": "Religious Communism",
+        "name": "Quarkism",
+        "stats": {
+            "econ": 20,
+            "dipl": 60,
+            "govt": 70,
+            "scty": 45
+        }
+    },
+    {
+        "name": "Capacitationism",
         "stats": {
             "econ": 100,
-            "dipl": 50,
-            "govt": 30,
-            "scty": 30
-        }
-    },
-    {
-        "name": "State Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 70
-        }
-    },
-    {
-        "name": "Theocratic Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 30,
-            "scty": 20
+            "dipl": 100,
+            "govt": 100,
+            "scty": 100
         }
     },
     {
