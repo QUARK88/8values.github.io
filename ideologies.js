@@ -1,4 +1,4 @@
-ideologies = [
+//ideologies = [
     {
         "name": "Anarcho-Communism",
         "stats": {
