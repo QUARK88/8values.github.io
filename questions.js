@@ -430,7 +430,7 @@ questions = [
             "govt": 0,
             "scty": 0
         }
-    }
+    },
     {
         "question": "Biotechnology should be accelerated.",
         "effect": {
