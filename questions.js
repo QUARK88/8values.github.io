@@ -117,7 +117,7 @@ questions = [
         }
     },
     {
-        "question": "The economy should server collective interests rather than individual wants.",
+        "question": "The economy should serve collective interests rather than individual wants.",
         "effect": {
             "econ": -10,
             "dipl": 0,
