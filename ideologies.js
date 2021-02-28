@@ -1,4 +1,4 @@
-//ideologies = [
+ideologies = [
     {
         "name": "Paternalistic Conservatism",
         "stats": {
