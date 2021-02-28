@@ -360,7 +360,6 @@ questions = [
         }
     }
     {
-    {
         "question": "We should invest in expanding into space.",
         "effect": {
             "econ": 0,
