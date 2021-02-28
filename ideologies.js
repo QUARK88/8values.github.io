@@ -1,11 +1,11 @@
 //ideologies = [
     {
-        "name": "Anarcho-Communism",
+        "name": "Paternalistic Conservatism",
         "stats": {
-            "econ": 100,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 90
+            "econ": 30,
+            "dipl": 25,
+            "govt": 20,
+            "scty": 45
         }
     },
     {
