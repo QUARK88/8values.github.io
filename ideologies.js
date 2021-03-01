@@ -119,37 +119,46 @@ ideologies = [
     {
         "name": "Libertarian Conservatism",
         "stats": {
-            "econ": ,
-            "dipl": ,
-            "govt": ,
-            "scty": 
+            "econ": 50,
+            "dipl": 90,
+            "govt": 20,
+            "scty": 75
         }
     },
     {
         "name": "Fascism",
         "stats": {
-            "econ": ,
-            "dipl": ,
-            "govt": ,
-            "scty": 
+            "econ": 20,
+            "dipl": 80,
+            "govt": 10,
+            "scty": 5
         }
     },
     {
         "name": "Totalitarianism",
         "stats": {
-            "econ": ,
-            "dipl": ,
-            "govt": ,
-            "scty": 
+            "econ": 20,
+            "dipl": 50,
+            "govt": 45,
+            "scty": 0
         }
     },
     {
         "name": "Social Democracy",
         "stats": {
-            "econ": ,
-            "dipl": ,
-            "govt": ,
-            "scty": 
+            "econ": 50,
+            "dipl": 50,
+            "govt": 40,
+            "scty": 75
+        }
+    },
+    {
+        "name": "Classical Liberalism",
+        "stats": {
+            "econ": 70,
+            "dipl": 20,
+            "govt": 50,
+            "scty": 80
         }
     },
     {
