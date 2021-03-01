@@ -90,6 +90,69 @@ ideologies = [
         }
     },
     {
+        "name": "Centrism",
+        "stats": {
+            "econ": 50,
+            "dipl": 50,
+            "govt": 50,
+            "scty": 50
+        }
+    },
+    {
+        "name": "Authoritarian Socialism",
+        "stats": {
+            "econ": 20,
+            "dipl": 5,
+            "govt": 60,
+            "scty": 80
+        }
+    },
+    {
+        "name": "Conservative Socialism",
+        "stats": {
+            "econ": ,
+            "dipl": ,
+            "govt": ,
+            "scty": 
+        }
+    },
+    {
+        "name": "Libertarian Conservatism",
+        "stats": {
+            "econ": ,
+            "dipl": ,
+            "govt": ,
+            "scty": 
+        }
+    },
+    {
+        "name": "Fascism",
+        "stats": {
+            "econ": ,
+            "dipl": ,
+            "govt": ,
+            "scty": 
+        }
+    },
+    {
+        "name": "Totalitarianism",
+        "stats": {
+            "econ": ,
+            "dipl": ,
+            "govt": ,
+            "scty": 
+        }
+    },
+    {
+        "name": "Social Democracy",
+        "stats": {
+            "econ": ,
+            "dipl": ,
+            "govt": ,
+            "scty": 
+        }
+    },
+    {
         "name": "Capacitationism",
         "stats": {
             "econ": 100,
