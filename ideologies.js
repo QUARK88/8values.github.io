@@ -110,10 +110,10 @@ ideologies = [
     {
         "name": "Conservative Socialism",
         "stats": {
-            "econ": ,
-            "dipl": ,
-            "govt": ,
-            "scty": 
+            "econ": 15,
+            "dipl": 5,
+            "govt": 30,
+            "scty": 35
         }
     },
     {
