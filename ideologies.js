@@ -113,7 +113,7 @@ ideologies = [
             "econ": 15,
             "dipl": 5,
             "govt": 30,
-            "scty": 35
+            "scty": 65
         }
     },
     {
@@ -122,7 +122,7 @@ ideologies = [
             "econ": 50,
             "dipl": 90,
             "govt": 20,
-            "scty": 75
+            "scty": 25
         }
     },
     {
@@ -131,7 +131,7 @@ ideologies = [
             "econ": 20,
             "dipl": 80,
             "govt": 10,
-            "scty": 5
+            "scty": 95
         }
     },
     {
@@ -139,8 +139,8 @@ ideologies = [
         "stats": {
             "econ": 20,
             "dipl": 50,
-            "govt": 45,
-            "scty": 0
+            "govt": 55,
+            "scty": 100
         }
     },
     {
@@ -148,17 +148,17 @@ ideologies = [
         "stats": {
             "econ": 50,
             "dipl": 50,
-            "govt": 40,
-            "scty": 75
+            "govt": 65,
+            "scty": 25
         }
     },
     {
         "name": "Classical Liberalism",
         "stats": {
             "econ": 70,
-            "dipl": 20,
+            "dipl": 80,
             "govt": 50,
-            "scty": 80
+            "scty": 20
         }
     },
     {
